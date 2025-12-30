@@ -1,0 +1,11 @@
+.card-clickable {
+    cursor: pointer;
+    transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+}
+
+.card-clickable:hover {
+    border: 2px solid #FFD700;
+    /* bordo in hover */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    transform: translateY(-2px);
+}
