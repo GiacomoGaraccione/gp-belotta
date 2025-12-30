@@ -468,17 +468,6 @@ export default function App() {
     }
   }
 
-  const getCardStyle = (isMobile: boolean): React.CSSProperties => {
-    if (isMobile) {
-      return {
-        backgroundColor: 'cyan',
-        padding: '6px',
-        minWidth: '50px',
-        minHeight: '70px',
-      }
-    }
-    return { backgroundColor: 'cyan' }
-  }
 
   /* ------------------ RENDER ------------------ */
 
